@@ -21,7 +21,7 @@ app.use(multer({ dest: '' }).any());
 app.use('/', router);
 
 app.listen(PORT, () => {
-  pingmydyno(process.env.SERVER_URL);
+  //pingmydyno(process.env.SERVER_URL);
 });
 
 export default app;
